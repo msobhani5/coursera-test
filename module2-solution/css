@@ -1,1 +1,146 @@
 
+h1 {text-align: center;}
+body{
+	margin: 0;
+	padding:0;
+	background-color: lightblue;
+	font-family: serif;}
+
+
+
+p{clear:right;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+#box1 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:98%;
+	height:28%;
+	border: 1px solid black;
+	padding: 8px;
+	position: absolute;
+	left: 1%;
+	}
+#box2 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:98%;
+	height: 28%;
+	border: 1px solid black;
+	padding: 8px;
+	position: absolute;
+	left: 1%;
+	top: 42.2%;
+	}
+#box3 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:98%;
+	height: 28%;
+	border: 1px solid black;
+	padding:8px;
+	position: absolute;
+	left: 1%;
+	top: 71%
+
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{#box1 {background-color: lightgreen;
+		box-sizing: border-box;
+		border: 1px solid black;
+		padding: 8px;
+		width: 48%;
+		height: 30%;
+		position: absolute;
+		left: 1%;}
+#box2 {background-color: lightgreen;
+		box-sizing: border-box;
+		border: 1px solid black;
+		padding: 8px;
+		width: 48%;
+		height: 30%;
+		position: absolute;
+		left:51%;}
+#box3 {background-color: lightgreen;
+		box-sizing: border-box;
+		border: 1px solid black;
+		padding: 8px;
+		width: 98%;
+		height: 30%;
+		position: absolute;
+		top: 50%;
+		left: 1%;}
+}
+
+
+@media (min-width: 992px) {
+
+#box1 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:30%;
+	height:30%;
+	border: 1px solid black;
+	padding: 8px;
+	position: absolute;
+	left: 2%;
+	}
+#box2 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:30%;
+	height: 30%;
+	border: 1px solid black;
+	padding: 8px;
+	position: absolute;
+	left: 34.5%;
+	}
+#box3 {
+	background-color: lightgreen;
+	box-sizing: border-box;
+	width:30%;
+	height: 30%;
+	border: 1px solid black;
+	padding:8px;
+	position: absolute;
+	left: 68%
+	} }
+
+
+
+#content1{
+	background-color: darkblue;
+	border: 1px solid black;
+	padding: 5px;
+	width:130px;
+	height:40px;
+	text-align:center;
+	float: right;
+	box-sizing: border-box;}
+
+#content2{
+	background-color: purple;
+	border: 1px solid black;
+	padding: 5px;
+	width:130px;
+	height:40px;
+	text-align:center;
+	float:top;
+	float:right;
+	box-sizing: border-box;}
+
+#content3{
+	background-color: pink;
+	border: 1px solid black;
+	padding: 5px;
+	width:130px;
+	height: 40px;
+	text-align:center;
+	float:right;
+	box-sizing: border-box;}
+
